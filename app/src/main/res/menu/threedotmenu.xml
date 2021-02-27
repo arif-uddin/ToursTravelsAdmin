@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Add Package"
+        android:id="@+id/itemPackage">
+
+    </item>
+    <item
+        android:title="Booking List"
+        android:id="@+id/itemBookingList">
+    </item>
+
+    <item
+        android:title="User List"
+        android:id="@+id/itemUserList">
+    </item>
+
+    <item
+        android:title="Receipt List"
+        android:id="@+id/itemReceiptList">
+    </item>
+
+    <item
+        android:title="Log Out"
+        android:id="@+id/itemLogOut">
+    </item>
+
+</menu>

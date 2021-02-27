@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.PackageActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_margin="10dp"
+                android:id="@+id/packageName"
+                android:hint="Enter package name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <EditText
+                android:layout_margin="10dp"
+                android:id="@+id/placeName"
+                android:hint="Enter place name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <EditText
+                android:inputType="number"
+                android:layout_margin="10dp"
+                android:id="@+id/adult"
+                android:hint="Enter no of Adult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <EditText
+                android:inputType="number"
+                android:layout_margin="10dp"
+                android:id="@+id/child"
+                android:hint="Enter no of Child"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <EditText
+                android:inputType="textLongMessage"
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter description">
+
+            </EditText>
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/days"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter no of day(s)">
+
+            </EditText>
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </ProgressBar>
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/stayAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter stay amount">
+
+            </EditText>
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/foodAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Food amount">
+
+            </EditText>
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/busAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Bus amount">
+
+            </EditText>
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/trainAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Train amount">
+
+            </EditText>
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/airlinesAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Airlines amount">
+
+            </EditText>
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/image_view"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+            </ImageView>
+
+            <Button
+                android:padding="20dp"
+                android:layout_gravity="center"
+                android:id="@+id/file_browse"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_action_upload">
+
+            </Button>
+
+            <Button
+                android:background="@drawable/button_ripple"
+                android:id="@+id/btnSubmit"
+                android:text="Submit"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </Button>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.diu.tourstravelsadmin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_tour_admin"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_tour_admin_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.ReceiptConfirmActivity"></activity>
+        <activity android:name=".Activity.ReceiptListActivity" />
+        <activity android:name=".Activity.BookingDetailsActivity" />
+        <activity android:name=".Activity.PackageDetailsActivity" />
+        <activity android:name=".Activity.ForgetPasswordActivity" />
+        <activity android:name=".Activity.SignUpActivity" />
+        <activity android:name=".Activity.UserListActivity" />
+        <activity android:name=".Activity.BookingActivity" />
+        <activity android:name=".Activity.PackageActivity" />
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
